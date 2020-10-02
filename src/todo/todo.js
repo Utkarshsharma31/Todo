@@ -53,7 +53,7 @@ class Todo extends React.Component {
   render() {
     return (
       <div>
-        <h1>TODO APP</h1>
+        <h1>TODO List</h1>
         <br />
         <div className="card todo_card">
           <form onSubmit={this.addItem}>

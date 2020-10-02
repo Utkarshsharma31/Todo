@@ -19,3 +19,13 @@ text-align: initial;
 /*     */
 }
 
+@media only screen and (max-width: 768px)
+{
+  .todo_card {
+    width: 335px;
+  }
+  .todo_trash
+  {
+    left: 19rem;
+  }
+}
